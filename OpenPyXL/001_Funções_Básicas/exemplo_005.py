@@ -11,11 +11,9 @@ work_sheet = work_book['Plan1']
 
 # Modo 1 de inserir valores no Excel (pela chave da celula)
 work_sheet['A8'] = 'Curta o vídeo'
-print('>>> val_1:', work_sheet['A1'].value)
 
 # Modo 2 de inserir valores no Excel (pela posição da celula)
 work_sheet.cell(row=9, column=1, value='Se inscreva no canal')
-print('>>> val_2:', work_sheet.cell(row=2, column=1).value)
 
 # Modo 3 de inserir valores no Excel (pelo objeto da celula)
 cell = work_sheet['A10']
@@ -35,11 +33,11 @@ for row in data:
 
 # Modo 1: Pela chave da celula
 modo_1 = work_sheet['A1'].value
-#print('>>> modo_1 A1:', modo_1)
+print('>>> modo_1 A1:', modo_1)
 
 # Modo 2: Pela posição da celula
 modo_2 = work_sheet.cell(row=2, column=1).value
-#print('>>> modo_2 A2:', modo_2)
+print('>>> modo_2 A2:', modo_2)
 
 # Salvando o objeto em um arquivos excel
 work_book.save("sample_2.xlsx")
