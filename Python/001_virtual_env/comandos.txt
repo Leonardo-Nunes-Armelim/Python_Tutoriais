@@ -1,0 +1,17 @@
+>>> Exibe todas as bibliotecas instalada
+pip freeze
+
+>>> Instala o ambiente virtual
+pip install virtualenv
+
+>>> Cria o ambinte virtual em uma pasta chamada "venv"
+python -m venv ./venv
+
+>>> Executa o ambiente virtual criado
+.\venv\Scripts\activate.bat
+
+>>> Atualiza o pip
+python.exe -m pip install --upgrade pip
+
+>>> Em seguida você pode instalar qualquer biblioteca que quiser
+pip install matplotlib
