@@ -11,7 +11,7 @@ y2 = 1 + 2 * x / 6 + bottom
 figura, eixo = plt.subplots()
 
 eixo.fill_between(x, y1, y2, alpha=0.3, linewidth=0)
-eixo.fill_between(x, y1, y2, alpha=0.3, linewidth=0, step='pre')
+#eixo.fill_between(x, y1, y2, alpha=0.3, linewidth=0, step='pre')
 eixo.fill_between(x, y1, y2, alpha=0.3, linewidth=0, step='mid')
 #eixo.fill_between(x, y1, y2, alpha=0.3, linewidth=0, step='post')
 eixo.scatter(x, (y1 + y2)/2, s=50, c='C0')
