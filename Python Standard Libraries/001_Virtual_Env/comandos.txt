@@ -2,6 +2,7 @@
 pip freeze
 
 >>> Instala o ambiente virtual
+--> Errata: Não é necessário instalar o "virtualenv", a biblioteca venv já é nativa do Python
 pip install virtualenv
 
 >>> Cria o ambinte virtual em uma pasta chamada "venv"
