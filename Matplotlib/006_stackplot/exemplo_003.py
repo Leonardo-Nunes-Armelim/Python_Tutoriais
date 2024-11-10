@@ -8,7 +8,9 @@ y_3 = [1, 2, 1, 2, 3]
 
 figura, eixo = plt.subplots()
 
-eixo.stackplot(x, [y_1, y_2, y_3])
+eixo.stackplot(x, [y_1, y_2, y_3], labels=['azul', 'laranja', 'verde'])
+
+eixo.legend()
 
 eixo.grid(axis='both')
 
