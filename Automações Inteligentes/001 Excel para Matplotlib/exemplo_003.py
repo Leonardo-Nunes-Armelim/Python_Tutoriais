@@ -1,6 +1,4 @@
 from openpyxl import load_workbook
-import time
-import datetime
 import matplotlib.pyplot as plt
 
 # Carregando uma planilha Excel para a variavel "work_book"
